@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!-- saved from url=(0034)file:///D:/WEB%20CV%20EVAN/cv.html -->
-<html lang="id"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Virtual CV - RPL</title>
     <style>
@@ -54,17 +54,17 @@
 </head>
 <body>
     <div class="container">
-        <img src="./EVAN CV - RPL_files/WhatsApp Image 2025-01-20 at 14.26.35.jpeg" alt="Foto Profil">
+        <img src="WhatsApp Image 2025-01-20 at 14.26.35.jpeg" alt="Foto Profil">
         <h1>EVAN PUTRA FIRJATULLOH</h1>
         <h2>Lulusan RPL</h2>
         <p>"Saya adalah lulusan RPL yang berpengalaman dalam pengembangan perangkat lunak, web development, dan pemrograman berbasis mobile."</p>
         
-        <button class="btn" onclick="toggleInfo(&#39;infoPribadi&#39;)">Info Pribadi</button>
-        <button class="btn" onclick="toggleInfo(&#39;keahlian&#39;)">Keahlian</button>
-        <button class="btn" onclick="toggleInfo(&#39;pengalaman&#39;)">Pengalaman</button>
-        <button class="btn" onclick="toggleInfo(&#39;pendidikan&#39;)">Pendidikan</button>
+        <button class="btn" onclick="toggleInfo('infoPribadi')">Info Pribadi</button>
+        <button class="btn" onclick="toggleInfo('keahlian')">Keahlian</button>
+        <button class="btn" onclick="toggleInfo('pengalaman')">Pengalaman</button>
+        <button class="btn" onclick="toggleInfo('pendidikan')">Pendidikan</button>
         
-        <div id="infoPribadi" class="info-box" style="display: block;">
+        <div id="infoPribadi" class="info-box">
             <h2>Info Pribadi</h2>
             <p>Nama: Evan Putra Firjatulloh</p>
             <p>Email: evan44668@gmail.com</p>
@@ -72,7 +72,7 @@
             <p>Alamat: Wonosobo, Jawa Tengah</p>
         </div>
         
-        <div id="keahlian" class="info-box" style="display: none;">
+        <div id="keahlian" class="info-box">
             <h2>Keahlian</h2>
             <ul>
                 <li>HTML, CSS, JavaScript</li>
@@ -82,14 +82,14 @@
             </ul>
         </div>
         
-        <div id="pengalaman" class="info-box" style="display: none;">
+        <div id="pengalaman" class="info-box">
             <h2>Pengalaman</h2>
             <p>Internship di Perusahaan IT selama 6 bulan</p>
             <p>Membuat aplikasi CALCULATOR berbasis mobile</p>
             <p>Mengembangkan website portofolio interaktif</p>
         </div>
         
-        <div id="pendidikan" class="info-box" style="display: none;">
+        <div id="pendidikan" class="info-box">
             <h2>Pendidikan</h2>
             <p>SMK N 1 Wonosobo - Lulus Tahun 2026</p>
            
@@ -108,6 +108,5 @@
             });
         }
     </script>
-
-
-</body></html>
+</body>
+</html>
